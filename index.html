@@ -45,7 +45,7 @@
         <li class="list-element iconSvgHeaderMail">
           <a class="telMailHeader" href="mailto:info@devstudio.com">
             <svg
-              style="width: 10px; height: 10px"
+              style="width: 14px; height: 14px"
               class="headerPhoneAndMailSvg"
               alt="e-mail"
             >
@@ -58,7 +58,7 @@
           <span class="phoneAndMail"
             ><a class="telMailHeader" href="tel:+48111111111">
               <svg
-                style="width: 10px; height: 10px"
+                style="width: 14px; height: 14px"
                 alt="telefon"
                 class="headerPhoneAndMailSvg"
               >
@@ -678,37 +678,50 @@
         <h3 class="modalHeader">Zostaw swoje dane w formularzu</h3>
         <form class="modalForm" name="modalForm" validate>
           <label class="modalLabel modalLabelIcon">
+            <span class="modalSpanLabel">Imie</span>
+
+            <input type="text" name="name" class="modalInput modalInputName" />
             <svg class="modalIconSvg" alt="Icon Name" width="18" height="18">
               <use xlink:href="./Images/icons.svg#icon-name"></use>
             </svg>
-            <span>Imie</span>
-
-            <input type="text" name="name" class="modalInput modalInputName"
-          /></label>
+          </label>
           <label class="modalLabel modalLabelIcon">
+            <span class="modalSpanLabel">Telefon</span>
+            <input type="tel" name="numerTel" class="modalInput" />
             <svg class="modalIconSvg" alt="Icon tel" width="18" height="18">
               <use xlink:href="./Images/icons.svg#icon-tel"></use>
             </svg>
-            <span>Telefon</span>
-            <input type="tel" name="numerTel" class="modalInput"
-          /></label>
+          </label>
           <label class="modalLabel modalLabelIcon">
+            <span class="modalSpanLabel">Email</span>
+            <input type="email" name="email" class="modalInput" />
             <svg class="modalIconSvg" alt="Icon Email" width="18" height="18">
               <use xlink:href="./Images/icons.svg#icon-email"></use>
             </svg>
-            <span>Email</span>
-            <input type="email" name="email" class="modalInput"
-          /></label>
+          </label>
           <label class="modalLabel modalLabelTextarea"
-            ><span>Komentarz</span>
+            ><span class="modalSpanLabel">Komentarz</span>
             <textarea
               class="modalTextarea"
               placeholder="Wprowadź tekst"
             ></textarea>
           </label>
-          <input type="checkbox" class="modalCheckbox" /> Oświadczam iż
-          akceptuje&nbsp <a href="#" class="linkModal"> Regulamin</a>&nbspi&nbsp
-          <a class="linkModal" href="#">Polityke Prywatności</a>
+          <label class="modalLabelCheckbox">
+            <input type="checkbox" class="modalCheckbox" />
+            <svg
+              class="modalIconCheckboxSvg"
+              alt="Icon tel"
+              width="14"
+              height="14"
+            >
+              <use xlink:href="./Images/icons.svg#icon-checkbox"></use>
+            </svg>
+            <span class="modalSpan">
+              Oświadczam iż akceptuje&nbsp
+              <a href="#" class="linkModal"> Regulamin</a>&nbspi&nbsp
+              <a class="linkModal" href="#">Polityke Prywatności</a></span
+            >
+          </label>
         </form>
         <button class="modalBtn" type="submit" value="Wyślij">Wyślij</button>
 
