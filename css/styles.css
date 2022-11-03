@@ -39,7 +39,7 @@ body {
   border-bottom: solid 4px #2196f3;
   border-radius: 2px;
   position: relative;
-  top: 45px;
+  top: 31px;
 }
 .reference.navIndex:visited,
 .reference.navPortfolio:visited {
@@ -52,7 +52,7 @@ body {
   border-bottom: solid 4px #2196f3;
   border-radius: 2px;
   position: relative;
-  top: 45px;
+  top: 31px;
 }
 .navIndex:hover::after,
 .navIndex::after {
@@ -61,7 +61,7 @@ body {
   border-bottom: solid 4px #2196f3;
   border-radius: 2px;
   position: relative;
-  top: 45px;
+  top: 31px;
 }
 .reference {
   transition: color 250ms;
@@ -103,7 +103,7 @@ body {
   display: flex;
   position: relative;
   left: 45%;
-  bottom: 2.5em;
+  bottom: 1.3em;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.172em;
@@ -136,7 +136,7 @@ body {
   letter-spacing: 0.02em;
   position: relative;
   left: 15%;
-  top: -2.3em;
+  top: -1.2em;
   margin-left: 3em;
   line-height: 1.172em;
 }
@@ -144,7 +144,7 @@ body {
   display: inline-flex;
   text-align: center;
   position: relative;
-  top: 0.35em;
+  top: 0.9em;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -328,6 +328,7 @@ body {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   margin-top: 30px;
+  border: none;
 }
 .loremIpsum {
   display: flex;
